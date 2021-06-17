@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Project</title>
+</head>
+<h1>My Test Project</h1>
+<body>
+
+  <!-- checkbox  -->   
+<fieldset>
+    <input type="checkbox" id="myCheck" onclick="myFunction()">
+    <p id="text" style="display:none">Checkbox is CHECKED!</p>
+    <label class="container">One
+    <input type="checkbox" checked="checked">
+    <span class="checkmark"></span>
+    </label>
+    <label class="container">Two
+    <input type="checkbox">
+    <span class="checkmark"></span>
+    </label>
+    <label class="container">Three
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">Four
+    <input type="checkbox">
+    <span class="checkmark"></span>
+  </label> 
+</fieldset>  
+
+<!-- Disabled checkbox  --> 
+<fieldset>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+    <label class="form-check-label" for="flexCheckDisabled">
+    Disabled checkbox
+    </label>
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
+    <label class="form-check-label" for="flexCheckCheckedDisabled">
+    Disabled checked checkbox
+    </label>
+  </div>
+</fielset>
+
+<!-- Disabled radio -->
+<fieldset>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+    <label class="form-check-label" for="flexRadioDisabled">
+    Disabled radio
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked disabled>
+    <label class="form-check-label" for="flexRadioCheckedDisabled">
+    Disabled checked radio
+    </label>
+  </div>
+</fieldset>
+<!--Radio toggle buttons-->
+<fielset>
+    <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+    <label class="btn btn-secondary" for="option1">Checked</label>
+    <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+    <label class="btn btn-secondary" for="option2">Radio</label>
+    <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" disabled>
+    <label class="btn btn-secondary" for="option3">Disabled</label>
+    <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+    <label class="btn btn-secondary" for="option4">Radio</label>
+</fielset>
+</body>
+</html>
+
+
